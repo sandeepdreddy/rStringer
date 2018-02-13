@@ -1,0 +1,32 @@
+.rlogger-img {
+  text-align: center;
+  background-image: url(../assets/images/racket-logger.svg);
+  background-repeat: no-repeat;
+}
+
+.stringer-form {
+  width: 800px;
+  margin: 50px auto;
+
+  .mains-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  .full-width {
+    width: 70%;
+  }
+
+  .extras {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .submit-button {
+    padding: 15px 0;
+  }
+  .same-as-mains {
+    padding: 10px 0;
+  }
+}
